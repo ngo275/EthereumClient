@@ -13,6 +13,8 @@
 		0E68EB611F8776A20072A9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E68EB601F8776A20072A9B9 /* Assets.xcassets */; };
 		0E68EB641F8776A20072A9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E68EB621F8776A20072A9B9 /* LaunchScreen.storyboard */; };
 		0E68EB6F1F8776A20072A9B9 /* EtherClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E68EB6E1F8776A20072A9B9 /* EtherClientTests.swift */; };
+		2C48B677C25F5D4EC68A80D3 /* Pods_EtherClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A3534F7DEEDCCC928448DC /* Pods_EtherClientTests.framework */; };
+		F3C76A3CF422B1C7CCF61509 /* Pods_EtherClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AC94517BDA58680739428C /* Pods_EtherClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DD5B8F4E82FCAD6F7C68EC3 /* Pods-EtherClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtherClient/Pods-EtherClient.release.xcconfig"; sourceTree = "<group>"; };
+		0E36CE8EB318DB3D8FCB299C /* Pods-EtherClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtherClient/Pods-EtherClient.debug.xcconfig"; sourceTree = "<group>"; };
 		0E68EB561F8776A20072A9B9 /* EtherClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtherClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E68EB591F8776A20072A9B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E68EB5B1F8776A20072A9B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		0E68EB6A1F8776A20072A9B9 /* EtherClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E68EB6E1F8776A20072A9B9 /* EtherClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherClientTests.swift; sourceTree = "<group>"; };
 		0E68EB701F8776A20072A9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15AC94517BDA58680739428C /* Pods_EtherClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtherClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374F2223FAB4C6814030A479 /* Pods-EtherClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtherClientTests/Pods-EtherClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B929C3E87ADA4195CDBA4A87 /* Pods-EtherClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtherClientTests/Pods-EtherClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6A3534F7DEEDCCC928448DC /* Pods_EtherClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtherClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C76A3CF422B1C7CCF61509 /* Pods_EtherClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C48B677C25F5D4EC68A80D3 /* Pods_EtherClientTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				0E68EB581F8776A20072A9B9 /* EtherClient */,
 				0E68EB6D1F8776A20072A9B9 /* EtherClientTests */,
 				0E68EB571F8776A20072A9B9 /* Products */,
+				DBAE32B3F8E5E0D8AA9AD1DD /* Pods */,
+				738D6F51DC5886C5C5F865DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = EtherClientTests;
 			sourceTree = "<group>";
 		};
+		738D6F51DC5886C5C5F865DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15AC94517BDA58680739428C /* Pods_EtherClient.framework */,
+				F6A3534F7DEEDCCC928448DC /* Pods_EtherClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBAE32B3F8E5E0D8AA9AD1DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E36CE8EB318DB3D8FCB299C /* Pods-EtherClient.debug.xcconfig */,
+				0DD5B8F4E82FCAD6F7C68EC3 /* Pods-EtherClient.release.xcconfig */,
+				374F2223FAB4C6814030A479 /* Pods-EtherClientTests.debug.xcconfig */,
+				B929C3E87ADA4195CDBA4A87 /* Pods-EtherClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E68EB731F8776A20072A9B9 /* Build configuration list for PBXNativeTarget "EtherClient" */;
 			buildPhases = (
+				DF90CA7C8F7CC873E61233D5 /* [CP] Check Pods Manifest.lock */,
 				0E68EB521F8776A20072A9B9 /* Sources */,
 				0E68EB531F8776A20072A9B9 /* Frameworks */,
 				0E68EB541F8776A20072A9B9 /* Resources */,
+				F9701DD7EFB19D63A9E0A7F8 /* [CP] Embed Pods Frameworks */,
+				8A1C5B6372FE73DDD5C159CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E68EB761F8776A20072A9B9 /* Build configuration list for PBXNativeTarget "EtherClientTests" */;
 			buildPhases = (
+				39F0D63677DD8D87A267B49D /* [CP] Check Pods Manifest.lock */,
 				0E68EB661F8776A20072A9B9 /* Sources */,
 				0E68EB671F8776A20072A9B9 /* Frameworks */,
 				0E68EB681F8776A20072A9B9 /* Resources */,
+				C6DF0BDE5F65C88801B8D4C2 /* [CP] Embed Pods Frameworks */,
+				8925B500CCE5DB60B6AFD1FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39F0D63677DD8D87A267B49D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtherClientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8925B500CCE5DB60B6AFD1FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtherClientTests/Pods-EtherClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1C5B6372FE73DDD5C159CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtherClient/Pods-EtherClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6DF0BDE5F65C88801B8D4C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtherClientTests/Pods-EtherClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF90CA7C8F7CC873E61233D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EtherClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9701DD7EFB19D63A9E0A7F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EtherClient/Pods-EtherClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E68EB521F8776A20072A9B9 /* Sources */ = {
@@ -351,6 +488,7 @@
 		};
 		0E68EB741F8776A20072A9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E36CE8EB318DB3D8FCB299C /* Pods-EtherClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +504,7 @@
 		};
 		0E68EB751F8776A20072A9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD5B8F4E82FCAD6F7C68EC3 /* Pods-EtherClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +520,7 @@
 		};
 		0E68EB771F8776A20072A9B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374F2223FAB4C6814030A479 /* Pods-EtherClientTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +538,7 @@
 		};
 		0E68EB781F8776A20072A9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B929C3E87ADA4195CDBA4A87 /* Pods-EtherClientTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
