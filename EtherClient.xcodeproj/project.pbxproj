@@ -13,6 +13,7 @@
 		0E68EB611F8776A20072A9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E68EB601F8776A20072A9B9 /* Assets.xcassets */; };
 		0E68EB641F8776A20072A9B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E68EB621F8776A20072A9B9 /* LaunchScreen.storyboard */; };
 		0E68EB6F1F8776A20072A9B9 /* EtherClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E68EB6E1F8776A20072A9B9 /* EtherClientTests.swift */; };
+		0E68EB7D1F8B86E40072A9B9 /* GethManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E68EB7C1F8B86E40072A9B9 /* GethManager.swift */; };
 		2C48B677C25F5D4EC68A80D3 /* Pods_EtherClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A3534F7DEEDCCC928448DC /* Pods_EtherClientTests.framework */; };
 		F3C76A3CF422B1C7CCF61509 /* Pods_EtherClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AC94517BDA58680739428C /* Pods_EtherClient.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		0E68EB6A1F8776A20072A9B9 /* EtherClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E68EB6E1F8776A20072A9B9 /* EtherClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtherClientTests.swift; sourceTree = "<group>"; };
 		0E68EB701F8776A20072A9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E68EB7C1F8B86E40072A9B9 /* GethManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GethManager.swift; sourceTree = "<group>"; };
 		15AC94517BDA58680739428C /* Pods_EtherClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EtherClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		374F2223FAB4C6814030A479 /* Pods-EtherClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EtherClientTests/Pods-EtherClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B929C3E87ADA4195CDBA4A87 /* Pods-EtherClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EtherClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EtherClientTests/Pods-EtherClientTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		0E68EB581F8776A20072A9B9 /* EtherClient */ = {
 			isa = PBXGroup;
 			children = (
+				0E68EB7B1F8B86CC0072A9B9 /* Utils */,
 				0E68EB591F8776A20072A9B9 /* AppDelegate.swift */,
 				0E68EB5B1F8776A20072A9B9 /* ViewController.swift */,
 				0E68EB5D1F8776A20072A9B9 /* Main.storyboard */,
@@ -106,6 +109,14 @@
 				0E68EB701F8776A20072A9B9 /* Info.plist */,
 			);
 			path = EtherClientTests;
+			sourceTree = "<group>";
+		};
+		0E68EB7B1F8B86CC0072A9B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E68EB7C1F8B86E40072A9B9 /* GethManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		738D6F51DC5886C5C5F865DB /* Frameworks */ = {
@@ -336,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E68EB7D1F8B86E40072A9B9 /* GethManager.swift in Sources */,
 				0E68EB5C1F8776A20072A9B9 /* ViewController.swift in Sources */,
 				0E68EB5A1F8776A20072A9B9 /* AppDelegate.swift in Sources */,
 			);
